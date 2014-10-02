@@ -16,7 +16,7 @@
             	<li>Возникают глюки с отображением в IE 6-7</li>
             </ul>            
       </li><br>
-      <li> 
+      <li style="border: 1px solid #333;"> 
             <span><b>Преимущества</b></span> 
             <ul>
             	<li>Не использует js</li>
