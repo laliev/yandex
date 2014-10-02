@@ -1,0 +1,67 @@
+html {
+    min-height: 100%
+    }
+body {
+    min-height: 100%;
+    background: #fff;
+    font: 14px/125% Tahoma;
+    }
+p {
+    margin: 1em 0;
+    text-align: center
+    }
+
+.popup__overlay{
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;  
+    background: rgba(0,0,0,.7);
+}
+
+ .popup{
+    position:absolute;
+	width: 800px;
+	left:50%;
+	top:50%;
+	z-index:1001;
+	border-radius: 15px;
+	background: #fff;
+	padding: 15px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

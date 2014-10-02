@@ -20,14 +20,14 @@ root.radius = 0;
 root.fixed = true;
 
 var force = d3.layout.force()
-    .gravity(0.009)
-    .friction(0.9)
+    .gravity(0.03)
+    .linkStrength ( 0.1 ) 
     .charge(function(d, i) { return i ? 0 : -2000; })
+    .friction(1)
     .nodes(nodes)
-    .size([width, height]);
-
-force.start();
-
+    .size([width, height])
+    .start(0.1)
+    .resume(1);
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -94,14 +94,7 @@ function transit(){
     .transition()
     .style("fill", 'yellow')
     .transition()
-    
-    
-
-
 };
 
 setInterval(transit, 3000)
-
 </script>
-
-
